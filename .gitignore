@@ -3,3 +3,15 @@
 ################################################################################
 
 /.vs/RepoPatterns/v15
+/Decorator/bin/Debug
+/Decorator/obj/Debug
+/FactoryMethod/obj/Debug
+/FactoryMethod/bin/Debug
+/Iterator/bin/Debug
+/Iterator/obj/Debug
+/Observer/bin/Debug
+/Observer/obj/Debug
+/RepoPatterns/bin/Debug
+/RepoPatterns/obj/Debug
+/Repository/obj/Debug
+/UnitOfWork/obj/Debug
