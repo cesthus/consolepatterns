@@ -15,3 +15,10 @@
 /RepoPatterns/obj/Debug
 /Repository/obj/Debug
 /UnitOfWork/obj/Debug
+/Adapter/obj/Debug
+/Adapter/Properties
+/Builder/bin/Debug
+/Builder/obj/Debug
+/Builder/Properties
+/Composite/obj/Debug
+/Composite/Properties
