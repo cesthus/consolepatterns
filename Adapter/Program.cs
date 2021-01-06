@@ -8,8 +8,17 @@ namespace Adapter
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Console.WriteLine("Employee List");
+
+            ITarget adapter = new EmployeeAdapter();
+            foreach(string employee in adapter.GetEmployees())
+            {
+                Console.WriteLine(employee);
+            }
+
+            Console.ReadKey();
         }
     }
 }
