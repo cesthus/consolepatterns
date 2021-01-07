@@ -4,16 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Command
+namespace Command.Calculator
 {
-    class Program
+    /// <summary>
+    /// Invoker class
+    /// </summary>
+    public class User
     {
-        static void Main(string[] args)
-        {
 
-
-
-            Console.ReadKey();
-        }
     }
 }
