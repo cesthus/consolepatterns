@@ -36,7 +36,7 @@ namespace Command.Calculator
 
         public override void UnExecute()
         {
-            _calculator.Operation(Undo(_operator, _operand));
+            _calculator.Operation(Undo(_operator), _operand);
         }
 
         private char Undo(char @operator)
