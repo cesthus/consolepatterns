@@ -8,6 +8,6 @@ namespace Repository.Controller
 {
     public class StudentController
     {
-        private StudentDbContext db = new StudentDbContext();
+        
     }
 }

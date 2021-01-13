@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepoPatterns", "RepoPatterns\RepoPatterns.csproj", "{6665D454-60EC-4FB8-AB99-3942A00FF43F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{CC0FDF48-8276-4866-A3E0-8474ABF96EC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{42C0C962-043E-49B9-9933-D730E40CCD61}"
@@ -35,10 +33,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6665D454-60EC-4FB8-AB99-3942A00FF43F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6665D454-60EC-4FB8-AB99-3942A00FF43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6665D454-60EC-4FB8-AB99-3942A00FF43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6665D454-60EC-4FB8-AB99-3942A00FF43F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC0FDF48-8276-4866-A3E0-8474ABF96EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC0FDF48-8276-4866-A3E0-8474ABF96EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC0FDF48-8276-4866-A3E0-8474ABF96EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -31,3 +31,6 @@
 /Interpreter/Properties
 /Interpreter/obj/Debug
 /Interpreter/bin/Debug
+/Adapter/bin/Debug
+/Repository/bin/Debug
+/UnitOfWork/bin/Debug

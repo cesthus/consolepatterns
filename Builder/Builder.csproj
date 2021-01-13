@@ -42,13 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="CarBuilder.cs" />
-    <Compile Include="CarFactory.cs" />
-    <Compile Include="NormalCarBuilder.cs" />
+    <Compile Include="Cars\Car.cs" />
+    <Compile Include="Cars\CarBuilder.cs" />
+    <Compile Include="Cars\CarFactory.cs" />
+    <Compile Include="Cars\NormalCarBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SuperCarBuilder.cs" />
+    <Compile Include="Cars\SuperCarBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
