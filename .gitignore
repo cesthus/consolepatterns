@@ -34,3 +34,7 @@
 /Adapter/bin/Debug
 /Repository/bin/Debug
 /UnitOfWork/bin/Debug
+/Mediator/bin/Debug
+/Mediator/obj/Debug
+/Visitor/obj/Debug
+/Visitor/bin/Debug

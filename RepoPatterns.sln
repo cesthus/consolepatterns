@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{88B60048-41A6-4E4A-B105-C3DF963774E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{DC46F835-41C9-4B68-A464-B2E3B3E30B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{FD52C658-D4E0-4ED1-8122-07BA1EE9C4D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{88B60048-41A6-4E4A-B105-C3DF963774E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B60048-41A6-4E4A-B105-C3DF963774E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B60048-41A6-4E4A-B105-C3DF963774E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC46F835-41C9-4B68-A464-B2E3B3E30B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC46F835-41C9-4B68-A464-B2E3B3E30B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC46F835-41C9-4B68-A464-B2E3B3E30B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC46F835-41C9-4B68-A464-B2E3B3E30B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD52C658-D4E0-4ED1-8122-07BA1EE9C4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD52C658-D4E0-4ED1-8122-07BA1EE9C4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD52C658-D4E0-4ED1-8122-07BA1EE9C4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD52C658-D4E0-4ED1-8122-07BA1EE9C4D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
