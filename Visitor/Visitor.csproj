@@ -44,6 +44,14 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visitors\Clerk.cs" />
+    <Compile Include="Visitors\Director.cs" />
+    <Compile Include="Visitors\Element.cs" />
+    <Compile Include="Visitors\Employee.cs" />
+    <Compile Include="Visitors\Employees.cs" />
+    <Compile Include="Visitors\IncomeVisitor.cs" />
+    <Compile Include="Visitors\IVisitor.cs" />
+    <Compile Include="Visitors\VacationVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
