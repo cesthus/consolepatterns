@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace Mediator.ChatRoom
 {
     /// <summary>
-    /// Mediator abstrac
+    /// Mediator abstract class
     /// </summary>
     public abstract class AbstractChatroom
     {
-        public abstract void register(Participant participant);
-        public abstract void register(string from, string to, string messafe);
+        public abstract void Register(Participant participant);
+        public abstract void Send(string from, string to, string message);
     }
 }
