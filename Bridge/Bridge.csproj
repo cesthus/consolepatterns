@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MessageSender\IMessageSender.cs" />
+    <Compile Include="MessageSender\Message.cs" />
+    <Compile Include="MessageSender\SystemMessage.cs" />
+    <Compile Include="MessageSender\TextSender.cs" />
+    <Compile Include="MessageSender\WebServiceSender.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
