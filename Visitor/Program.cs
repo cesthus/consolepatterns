@@ -18,9 +18,20 @@ namespace Visitor
             e1.Accept(new IncomeVisitor());
             e1.Accept(new VacationVisitor());
 
-
+            var x = Average(2, 1);
+            Console.WriteLine(x);
 
             Console.ReadKey();
         }
+
+        public static double Average(int a, int b)
+        {
+            var c = (a + b);
+            var d = (double)c/2;
+            return  d;
+        }
     }
 }
+
+
+

@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{F9FF4301-B46A-4ED8-B8B8-E00A79F477E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{76939266-8B15-4409-AD1D-9A389F1F8134}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{F9FF4301-B46A-4ED8-B8B8-E00A79F477E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9FF4301-B46A-4ED8-B8B8-E00A79F477E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9FF4301-B46A-4ED8-B8B8-E00A79F477E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76939266-8B15-4409-AD1D-9A389F1F8134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76939266-8B15-4409-AD1D-9A389F1F8134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76939266-8B15-4409-AD1D-9A389F1F8134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76939266-8B15-4409-AD1D-9A389F1F8134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
