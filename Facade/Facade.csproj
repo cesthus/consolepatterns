@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8DBB8DFB-6B08-44ED-B6E6-05C069D6D6C3}</ProjectGuid>
+    <ProjectGuid>{7DD0A427-A437-4A31-8FA7-ACF211204B6A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Flyweight</RootNamespace>
-    <AssemblyName>Flyweight</AssemblyName>
+    <RootNamespace>Facade</RootNamespace>
+    <AssemblyName>Facade</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,10 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shapes\IShape.cs" />
-    <Compile Include="Shapes\ShapeObjectFactory.cs" />
-    <Compile Include="Shapes\Square.cs" />
-    <Compile Include="Shapes\Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
